@@ -10,3 +10,12 @@ export const Content = styled.div`
 
   padding: 30px 85px;
 `;
+
+export const ImageContainer = styled.div`
+   width:100%;
+   height: 80%;
+
+   display:flex;
+   align-items:center;
+   justify-content:center;
+`;

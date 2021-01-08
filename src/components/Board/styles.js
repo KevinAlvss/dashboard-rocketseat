@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 93.5%;
+  height: 94.21%;
   width: 32.15%;
   position: relative;
   top:0;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  padding:64px 0;
 
   background-color:#202024;
 
@@ -20,5 +26,26 @@ export const Container = styled.div`
   :hover{
 
     top: ${props => props.animacao === true ? '-5px' : 'unset' };
+  }
+
+  > div{
+    width:100%;
+    height:60%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+
+    text-align:center;
+
+    > p {
+      max-width:270px;
+      line-height:26px;
+    }
+
+    > img{
+      margin-bottom:30px;
+    }
   }
 `;
