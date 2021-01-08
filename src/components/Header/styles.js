@@ -4,7 +4,7 @@ export const Container = styled.div`
   display:flex;
   align-items:center;
 
-  padding:0 80px;
+  padding:0 85px;
   
   width:100%;
   height:72px;
@@ -29,7 +29,7 @@ export const Right = styled.div`
    > div{
        
         :first-child{
-           margin-right:14px;
+           margin-right:7px;
            height:45px;
             width:45px;
             display:flex;
@@ -51,7 +51,7 @@ export const Right = styled.div`
             align-items:center;
             justify-content:center;
             border-radius:5px;
-            margin:0 14px;
+            margin:0 7px;
 
             transition: background-color 200ms;
             
@@ -67,7 +67,7 @@ export const Right = styled.div`
             align-items:center;
             justify-content:center;
             border-radius:5px;
-            margin:0 14px;
+            margin:0 10px 0 7px;
 
             transition: background-color 200ms;
             
