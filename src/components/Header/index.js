@@ -13,25 +13,25 @@ function Header() {
   return (
       <Container>
         <Left>
-          <img src={logo} alt="logo-rocketseat" />
+          <img draggable={false} src={logo} alt="logo-rocketseat" />
         </Left>
         <Right>
            <div id="lupa">
-             <img src={lupa} alt="search" />
+             <img draggable={false} src={lupa} alt="search" />
            </div>
 
            <div id="conexao">
-            <img src={conection} alt="conexão" />
+            <img draggable={false} src={conection} alt="conexão" />
            </div>
 
            <div id="sino">
-           <img src={sino} alt="notificações" />
+           <img draggable={false} src={sino} alt="notificações" />
            </div>
 
            <UserContainer>
              <strong>Kevin Alves</strong>
              <div>
-              <img src={user} alt="userphoto" />
+              <img draggable={false} src={user} alt="userphoto" />
              </div>
            </UserContainer>
 
